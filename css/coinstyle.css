@@ -1,0 +1,66 @@
+.textbox { 
+    border: 3px outset #FFA5A5; 
+    outline:0; 
+    height:25px; 
+    width: 100px;
+  }
+.button {
+   background-color: #555555;
+   height:25px; 
+   width: 50px;
+   font-size: 16px;
+   cursor: pointer;
+   color: white;
+   text-align: center;
+   display: inline-block;
+}
+.error {
+	height:25px; 
+    width: 600px;
+	font-weight: bold;
+	margin: auto;
+    width: 70%;
+	text-align:center;
+
+}
+
+.center, #outputTable {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+h1 {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+	color: #444;
+    font-weight: 100;
+}
+p {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 20px;
+	line-height: 20px;
+	color: #444;
+	font-weight: 30;
+}
+.bullet {
+    list-style-type: square;
+}
+.indent {
+	margin-left:200px;
+	width:100%;
+	font-weight: 30;
+	font-size:25px;
+
+}
+col:first-child {
+background: #CCC
+}
+
+td, th {
+	border: 1px solid #ddd;
+    padding: 8px;
+}
+
+

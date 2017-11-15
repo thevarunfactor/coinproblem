@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Change Maker </title>
+	<meta name="description" content="Web app to calculate minimum number of coins to make up an amount">
+	<meta name="author" content="Varun Bala Krishnan">
+	<link rel="stylesheet" type="text/css" href="css/coinstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/coinstyle.css">
+	<script src="js/coinchanger.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Change Maker</h1>
+        <ul class="bullet">
+            <li>
+                <p>This nifty little tool helps you calculate the minimum number of coins required to make up an amount</p>
+            </li>
+            <li>
+                <p>Simply enter the amount in £ or p and hit the enter/return key or click on the 'Go' button </p>
+            </li>
+            <li>
+                <p>Please enter only numbers. The £ or p symbols are optional -- by default, the amount will be considered as pence</p>
+            </li>
+			<li>
+                <p>If you input a decimal number without the £ or p symbol, it rounds to the nearest penny </p>
+            </li>
+        </ul>
+        <label class="indent">Enter amount:
+		<input type="text" class="textbox" id="coins" onkeydown = "if (event.keyCode == 13)
+		document.getElementById('submitButton').click()" />
+		<button class="button" id="submitButton" onclick="clearResults();validateInput()">Go</button></label>
+		<br></br>
+		<table id="outputTable"></table>
+		<div id="errorMessage" class="error"></div>
+	</div>
+</body>
+
+</html>
